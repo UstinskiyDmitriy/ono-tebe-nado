@@ -1,1 +1,130 @@
-/* место для вашего кода */
+.header {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 92px 50px 96px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.header__menu{
+  width: 391.479px;
+  height: 22px;
+}
+.header__links-list{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.header__links-list-item{
+  border-bottom: #000;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit{
+  list-style: none;
+}
+
+.header__link_active{
+  text-decoration: none;
+}
+
+.header__logo-image{
+  margin-right: 150px;
+  width: 148px;
+  height: 105px;
+}
+
+.address{
+  width: 240.521px;
+  height: 98px;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+  letter-spacing: 0.18px;
+  text-underline-position: under;
+}
+
+.cover{
+  background: url(/images/cover.jpg) center/cover;
+  color: #fff;
+  width: 1100px;
+  height: 757px;
+  
+}
+.overlay{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+
+.aligned-text_left {
+  text-align: left;
+  padding-top: 160px;
+  padding-left: 50px;
+}
+
+.aligned-text_center {
+  width: 100%;
+  max-width: 1065px;
+  text-align: center;
+}
+
+.aligned-text_right {
+  width: 100%;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  margin-top: 120px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: end;
+  word-spacing: 17.5px;
+  text-transform: uppercase;
+  margin-right: 79px;
+}
+
+.bet-button {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  padding: 12px 32px;
+}
+
