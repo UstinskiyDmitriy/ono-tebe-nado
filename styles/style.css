@@ -247,12 +247,6 @@
   margin-top: 100px;
 }
 
-.footer {
-  width: 1000px;
-  height: 98px;
-  display: flex;
-}
-
 .address {
   width: 240.521px;
   height: 98px;
@@ -260,6 +254,8 @@
 }
 
 .footer {
+  width: 1000px;
+  height: 98px;
   font-size: 18px;
   font-weight: 400;
   margin-top: 150px;
