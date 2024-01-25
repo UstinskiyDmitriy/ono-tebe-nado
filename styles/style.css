@@ -33,7 +33,7 @@
 
 .header__logo {
   display: flex;
-  flex:auto;
+  flex: auto;
   margin-left: 30px;
 }
 
@@ -161,7 +161,7 @@
 }
 
 .card_type_film {
-  background: url(../images/card-lot-01.jpg); 
+  background: url(../images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
 }
